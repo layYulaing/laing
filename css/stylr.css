@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: roboto;
+    src: url(../font/Roboto/Roboto-Medium.ttf);
+}
+body{
+    background-color: #efefef;
+}
+.container{
+    width: 1200px;
+    margin: 30px auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.airplan .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:  30px;
+}
+.airplan .col-8{
+     width: calc( 68% - 15px);
+}
+.airplan .col-4{
+    width: calc( 32% - 15px);
+}
+.contant{
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+.contant .image{
+    width: 50%;
+    height: 360px;
+    position: relative;
+}
+.contant .image .img-airplan{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.airplan  .dots {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.airplan .dots li {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #fff;
+    margin-right: 12px;
+}
+.airplan  .dots .active{
+    background-color: white;
+}
+.contant .description{
+    width: 50%;
+    height: 360px;
+}
+.description .head{
+    height: 100px;
+    line-height: 100px;
+    padding: 0 30px;
+}
+.description .head p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #2929d7;
+}
+.description .body{
+    height:260px;
+    padding:  10px 30px;
+    position: relative;
+}
+.description .body h3{
+     font-size: 24px;
+     font-size: roboto;
+}
+.body .boder-left{
+    position: absolute;
+    width: 2px;
+    height: 20%;
+    background-color: goldenrod;
+    margin: 20px 10px;
+}
+.description .body p{
+    color: black;
+    font-family: roboto;
+    font-size: 15px;
+    padding: 20px 30px;
+}
+.airplan .title-col-4{
+    width: 100%;
+    height: 100%;
+    background-color: #317FE3;
+    padding: 10px 20px;
+}
+.airplan .title-header{
+    height: 80px;
+}
+.title-header .icon{
+    width: 35px;
+}
+.airplan .title-body{
+    height: 180px;
+    position: relative;
+    padding: 0 10px;
+}
+.title-body .boder-left{
+    position: absolute;
+    width: 2px;
+    height: 80%;
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 30px;
+    
+}
+.airplan .title-body p{
+    color: white;
+    font-family: roboto;
+    font-size: 15px;
+    padding: 10px 0px;
+    padding-left:  50px;
+}
+.airplan .footer{
+    height: 50px;
+    position: relative;
+    margin-top: 8px;
+}
+.airplan .footer-4{
+    position: absolute;
+    width: 20px;
+    top: 90%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+.airplan .bg-img{
+    height: 100%;
+    position: relative;
+}
+.airplan  .img-col-4{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.airplan .bg-img-col-4{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(86, 86, 210, 0.6);
+    position: absolute;
+    padding: 10px 20px;
+}
+.airplan .header{
+    height: 80px;
+    background-color: #317FE3;
+}
+.airplan .col-8 .card{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/2.jpg);
+    background-size: 450px 330px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.airplan .bg-card{
+    width: 100%;
+   height: 100%;
+   background-image: linear-gradient(to right, #E47522, rgba(178, 84, 118, 0.2));
+   padding: 10px 20px;
+}
